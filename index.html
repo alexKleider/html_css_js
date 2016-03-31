@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1" />
+    <title>Framework Test Page</title>
+    <link rel="stylesheet" href="main.css"/>
+</head>
+<body>
+    <div class="grid">
+        <div class="row">
+            <div onclick="changeDogs()"
+                    class="col-7">
+                <h2>Our Dogs- One at a Time</h2>
+                <h3 id="dogName">This is Gabriel</h3>
+                <img id="dog"
+                    class="align-left"
+                    src="Images/gabriel.jpg">
+                <p id="dogDescription">
+        "Gabriel is very much the 'Grand Dame' at 8 years of age.";
+                </p>
+                <p>Click anywhere in this division to see our other dog.
+                (Javascript in action!)</p>
+            </div>
+            <div class="col-5">
+                <img src="Images/roast1a.JPG"
+                        class="small align-left" 
+                        alt="Pig roasting before fireplace." />
+                For several years in a row, June and I would hold a
+                New Year's Eve party and roast a pig in front of the
+                fire place in our kitchen.  Our goal was to get a pig
+                weighing about 20 to 30 pounds although one year we
+                had to deal with a 50 pounder!  That truely taxed the
+                system but I've sinced designed some counter weights
+                which would have made the difficulties go away.
+                The photo with this text by the way is in a 3/12
+                column.
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3">Box with 3/12 Columns</div>
+            <div class="col-9">
+                <img src="Images/bygone1a.JPG"
+                        class="align-left large"
+                        alt="Last get together in Caracas, Venezuela." />
+                June and I, with my parents and uncle and aunt in
+                Caracas some time in the mid 1980s.
+                The photo is 'floated' left and this text is meant to
+                'flow' around it.  The 'flow' phenomenon is not well
+                illustrated here because there is not enough text but
+                the phenomenon is well demonstrated with regard to the
+                roasting pig photo above and to the right.
+            </div>
+        </div>
+        <div class="row">
+
+            <div class="col-6">
+                    <img src="Images/ak_w_jeep1a.JPG"
+                            class="medium align-left"
+                            alt="Alex in front of Jeep at Commonweal." />
+                    <p>
+                    Alex standing in front of his old 1980 Jeep
+                    Laredo. Photo taken by his brother, Nick, either
+                    just before or after thier hike which included a
+                    descent to the beach.  This paragraph and the
+                    photo together are contained in a 6/12 column box.
+                    </p>
+            </div>
+            <div class="col-3">Box with 3/12 Columns</div>
+            <div class="col-3">Box with 3/12 Columns</div>
+        </div>
+    
+    </div>
+
+            <script src="Scripts/dogSwitch.js"></script>
+</body>
+</html>
